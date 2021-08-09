@@ -10,7 +10,7 @@
 return [
     'validation' => [
         'fqdn_not_resolvable' => 'Der FQDN wird nicht zu der angebenen IP-Adresse aufgelöst.',
-        'fqdn_required_for_ssl' => 'A fully qualified domain name that resolves to a public IP address is required in order to use SSL for this node.',
+        'fqdn_required_for_ssl' => 'Eine Domain ist erforderlich um ein SSL-Zertifikat zu erstellen um die Node zu schützen.',
     ],
     'notices' => [
         'allocations_added' => 'Diesem Knoten wurden erfolgreich Ports zugewiesen.',
